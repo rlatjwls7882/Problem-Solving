@@ -1,0 +1,3 @@
+[submodule "codeforces.com"]
+	path = codeforces.com
+	url = https://github.com/rlatjwls7882/Codeforces.git
