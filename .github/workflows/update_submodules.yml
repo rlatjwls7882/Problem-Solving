@@ -1,10 +1,9 @@
 name: Update Submodules
 
 on:
-  push:
-    branches: ["main"]
-  schedule:
-    - cron: '0 0 * * *'
+  repository_dispatch:
+    types: [submodule-updated]
+  workflow_dispatch:
 
 jobs:
   build:
