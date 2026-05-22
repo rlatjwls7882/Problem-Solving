@@ -5,6 +5,9 @@ on:
     types: [submodule-updated]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,5 +30,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GH_ACTIONS_TOKEN }}
         branch: ${{ github.ref }}
