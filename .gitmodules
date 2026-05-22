@@ -1,3 +1,6 @@
 [submodule "codeforces.com"]
 	path = codeforces.com
 	url = https://github.com/rlatjwls7882/Codeforces.git
+[submodule "acmicpc.net"]
+	path = acmicpc.net
+	url = https://github.com/rlatjwls7882/Baekjoon.git
