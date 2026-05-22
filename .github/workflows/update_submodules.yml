@@ -3,6 +3,8 @@ name: Update Submodules
 on:
   repository_dispatch:
     types: [submodule-updated]
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
