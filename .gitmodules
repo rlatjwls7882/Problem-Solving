@@ -7,3 +7,6 @@
 [submodule "codetree.ai"]
 	path = codetree.ai
 	url = https://github.com/rlatjwls7882/CodeTree.git
+[submodule "jungol.co.kr"]
+	path = jungol.co.kr
+	url = https://github.com/rlatjwls7882/Jungol.git
