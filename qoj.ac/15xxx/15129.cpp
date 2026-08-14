@@ -40,16 +40,6 @@ string s[100];
 int dx[]={0,0,1,-1,1,1,-1,-1};
 int dy[]={1,-1,0,0,1,-1,1,-1};
 
-ll p(ll a, ll n) {
-    ll ret=1;
-    while(n) {
-        if(n&1) ret=ret*a%MOD;
-        a=a*a%MOD;
-        n>>=1;
-    }
-    return ret;
-}
-
 int main() {
     cin.tie(0)->sync_with_stdio(0);
     ll n, m, d0, d1, d2; cin >> n >> m >> d0 >> d1 >> d2;
