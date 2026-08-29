@@ -10,3 +10,6 @@
 [submodule "jungol.co.kr"]
 	path = jungol.co.kr
 	url = https://github.com/rlatjwls7882/Jungol.git
+[submodule "doj"]
+	path = doj
+	url = https://github.com/rlatjwls7882/DOJ.git
