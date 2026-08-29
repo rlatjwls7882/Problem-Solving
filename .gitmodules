@@ -13,3 +13,6 @@
 [submodule "doj"]
 	path = doj
 	url = https://github.com/rlatjwls7882/DOJ.git
+[submodule "doj.kr"]
+	path = doj.kr
+	url = https://github.com/rlatjwls7882/DOJ.git
