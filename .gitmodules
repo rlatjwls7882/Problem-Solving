@@ -13,3 +13,6 @@
 [submodule "doj.kr"]
 	path = doj.kr
 	url = https://github.com/rlatjwls7882/DOJ.git
+[submodule "soj.services"]
+	path = soj.services
+	url = https://github.com/rlatjwls7882/SOJ-Solutions.git
